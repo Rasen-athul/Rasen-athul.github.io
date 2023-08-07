@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Single Page Website | Minor Project </title>
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+         <style>
+            .color-teal{
+                color: teal;
+            }
+            .icon-lg{
+                font-size: 50px;
+            }
+            .icon-sm{
+                font-size: 25px;
+
+            }
+            .remove.text-decoration{
+                text-decoration: none;
+            }
+            .remove-bullets{
+                list-style: none;
+            }
+         </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand.lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/logo.png" height="50" alt="Brand Logo">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Company</a>
+                            <a href="#" class="dropdown-item">Team</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-item nav-link">Contact Us</a>
+                </div>
+              </div>
+
+            </nav>
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="carousel 1" style="max-height: 100vh;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="carousel 2" style="max-height: 100vh;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="carousel 3" style="max-height: 100vh;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                   
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                   
+            </div>
+        </header>
+        <br>
+        <main>
+            <section class="container" id="about-us">
+                <h6 class="display-6 text-center">About Us</h6>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="container">
+                            <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="About us">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="text-black-50">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro pariatur deleniti sapiente non laudantium rem odit explicabo eveniet, suscipit vero. Accusantium laborum possimus quisquam, esse ex mollitia sint provident!
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat labore id totam et eius ipsa voluptatem consequatur veniam, debitis explicabo architecto assumenda ratione a doloremque laboriosam repellat expedita cumque aliquid?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta reiciendis necessitatibus, provident at animi similique sequi perspiciatis rerum dolor, deleniti dolorem magni, dolorum inventore deserunt eius quae quod non.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nemo impedit corrupti quo, ex dolor assumenda at molestiae, expedita reprehenderit velit voluptate magni minima, sunt quam a. Neque, eligendi quidem.
+                            </p>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <h6 class="display-6 text-center">What Makes Us Unique ?</h6>
+                    <div class="col-md-4">
+                        <div class="container text-center">
+                            <span class="bi bi-person color-teal icon-lg"></span>
+                            <p>Custom Tailored User Options</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="container text-center">
+                            <span class="bi bi-shield-shaded color-teal icon-lg"></span>
+                            <p>Privary First Approach</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="container text-center">
+                            <span class="bi bi-list color-teal icon-lg"></span>
+                            <p>Multiple Variation</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section id="team" class="container">
+                <h6 class="display-5 text-center">Our Innovative Team</h6><br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div class="card" style="width: 300px;">
+                                <img class="card.img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                                <div class="card-body text-center ">
+                                    <h4 class="card-title">Team Member 1</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vel odit tenetur repellendus temporibus cumque, impedit, numquam ipsum veniam delectus atque dolorum. Ea asperiores aliquam consequatur alias libero doloremque nostrum.
+
+                                    </p>
+                                    <i class="bi bi-facebook icon-sm m-2"></i>
+                                    <i class="bi bi-instagram icon-sm m-2"></i>
+                                    <i class="bi bi-linkedin icon-sm m-2"></i>
+                                    <i class="bi bi-youtube icon-sm m-2"></i>
+                                    <i class="bi bi-whatsapp icon-sm m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div class="card" style="width: 300px;">
+                                <img class="card.img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                                <div class="card-body text-center ">
+                                    <h4 class="card-title">Team Member 2</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vel odit tenetur repellendus temporibus cumque, impedit, numquam ipsum veniam delectus atque dolorum. Ea asperiores aliquam consequatur alias libero doloremque nostrum.
+
+                                    </p>
+                                    <i class="bi bi-facebook icon-sm m-2"></i>
+                                    <i class="bi bi-instagram icon-sm m-2"></i>
+                                    <i class="bi bi-linkedin icon-sm m-2"></i>
+                                    <i class="bi bi-youtube icon-sm m-2"></i>
+                                    <i class="bi bi-whatsapp icon-sm m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div class="card" style="width: 300px;">
+                                <img class="card.img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                                <div class="card-body text-center ">
+                                    <h4 class="card-title">Team Member 3</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis vel odit tenetur repellendus temporibus cumque, impedit, numquam ipsum veniam delectus atque dolorum. Ea asperiores aliquam consequatur alias libero doloremque nostrum.
+
+                                    </p>
+                                    <i class="bi bi-facebook icon-sm m-2"></i>
+                                    <i class="bi bi-instagram icon-sm m-2"></i>
+                                    <i class="bi bi-linkedin icon-sm m-2"></i>
+                                    <i class="bi bi-youtube icon-sm m-2"></i>
+                                    <i class="bi bi-whatsapp icon-sm m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Contact" class="container">
+                <br>
+                <h6 class="display-5 text-center">Contact Us</h6><br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container">
+                            <p class="text-muted text-center fs-3">Here Is Our Contact Info</p>
+                            <div class="text-black-s text-center fs-4">Our Email</div>
+                            <div class="text-black-50 text-center fs-5">support@example.com</div>
+                            <div class="text-black-s text-center fs-4">Our Phone No.</div>
+                            <div class="text-black-50 text-center fs-5">+91 85965 78231</div>
+                            <div class="text-black-s text-center fs-4">Our Address</div>
+                            <div class="text-black-50 text-center fs-5">HSR Layout , Banglore <br> Karnataka 560XXX</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container">
+                            <p class="text-muted text-center fs-3">You Can Also Write To Us</p>
+                            <div class="container">
+                                <div class="card-shadow">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="name" class="form-label">Enter Your Name</label>
+                                                <input type="text" class="form-control" name="name" id="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="emailid" class="form-label">Enter Your Email ID</label>
+                                                <input type="text" class="form-control" name="name" id="emailid">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="subject" class="form-label">Enter Your Subject</label>
+                                                <input type="text" class="form-control" name="name" id="subject">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message" class="form-label">Enter Your Message</label>
+                                                <textarea type="text" class="form-control" name="name" id="message"></textarea>
+                                            </div><br>
+                                            <div class="form-group text-center">
+                                                <input type="submit" class="btn btn-outline-dark" value="sent message">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container">
+                            <img src="assets/logo.png" height="30px" class="bg-white">
+                            <div>
+                                <p class="text-white"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, at similique recusandae dicta ad quam magnam corrupti, ratione omnis molestiae expedita? Dicta, porro natus quidem laboriosam molestiae odio dolorum ipsam.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container">
+                            <p class="text-white fs-5">Quick Links</p>
+                            <ul class="remove-bullets remove-text-decoration">
+                                <li><a href="#" class="remove-text-decoration text-white">About Us</a></li>
+                                <li><a href="#" class="remove-text-decoration text-white">Contact Us</a></li>
+                            </ul>
+                        </div>  
+                    </div>        
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>
